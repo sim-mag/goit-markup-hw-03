@@ -1,0 +1,179 @@
+:root {
+    --blue: #2196f3;
+    --black: #212121;
+    --grey: #757575;
+    --background-grey: #2f303a;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--black);
+}
+
+/* HEADER */
+.nav,
+.contact {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.contact {
+    color: var(--grey);
+}
+
+.tab {
+    color: var(--black);
+}
+
+.company-name {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    text-decoration: none;
+}
+
+.logo {
+    color: var(--blue);
+}
+
+.nav:hover {
+    color: var(--blue);
+}
+
+/* EFEKTYWNE ROZWIĄZANIA... */
+.solutions {
+    color: white;
+    background-color: var(--background-grey);
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+}
+
+/* BUTTONS */
+.button {
+    background-color: #f5f4fa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    border: none;
+    cursor: pointer;
+}
+
+.index {
+    color: white;
+    background-color: var(--blue);
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.button:hover {
+    color: white;
+    background-color: var(--blue);
+}
+
+.button:focus {
+    color: white;
+    background-color: var(--blue);
+    border-color: var(--blue);
+}
+
+/* SEKCJA TEKSTOWA LOREM */
+.articles {
+    color: var(--grey);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.articles h3 {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    list-style: none;
+}
+
+.no-marks {
+    list-style: none;
+}
+
+/* CZYM SIĘ ZAJMUJEMY, NASZ ZESPÓŁ */
+.section-title {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.our-team h3 {
+    color: var(--black);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.profession {
+    /* zostawiam taką klasę, żeby nie dawać nowego nagłówka w sekcji h4 */
+    color: var(--grey);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* MAIN STRONY PORTFOLIO */
+.portfolio h3 {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.type {
+    color: var(--grey);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* STOPKA */
+.footer-wrapper {
+    color: white;
+    background-color: var(--background-grey);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.company-name-footer {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    text-decoration: none;
+}
+
+.footer-wrapper address {
+    font-style: normal;
+}
+
+.footer-contact {
+    color: #ffffff99;
+    text-decoration: none;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.footer-contact:hover {
+    color: var(--blue);
+}
