@@ -16,6 +16,32 @@ body {
 }
 
 /* HEADER */
+.flex-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.border-nav {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.nav-links {
+    display: flex;
+    padding: 0px;
+}
+
+.nav-links li {
+    margin: 32px 46px 32px 0;
+}
+
+
+
 .nav,
 .contact {
     text-decoration: none;
@@ -26,6 +52,7 @@ body {
 
 .contact {
     color: var(--grey);
+    margin-left: 50px;
 }
 
 .tab {
@@ -39,6 +66,7 @@ body {
     font-weight: 700;
     line-height: 31px;
     text-decoration: none;
+    margin-right: 93px;
 }
 
 .logo {
@@ -204,8 +232,13 @@ h2 {
     padding-bottom: 20px;
 }
 
+address {
+    margin-top: 20px;
+}
+
 address a {
     padding-bottom: 9px;
+    margin-top: 9px;
 }
 
 .company-name-footer {
@@ -215,7 +248,6 @@ address a {
     font-weight: 700;
     line-height: 31px;
     text-decoration: none;
-    padding-bottom: 20px;
 }
 
 .footer-wrapper address {
