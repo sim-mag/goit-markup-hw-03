@@ -166,6 +166,7 @@ body {
 .flex-photos {
     display: flex;
     padding: 50px 0 94px 0;
+    justify-content: space-between;
     gap: 30px;
 }
 
