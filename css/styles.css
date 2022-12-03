@@ -28,7 +28,7 @@ body {
 }
 
 .border-nav {
-    border-bottom: 1px solid #ECECEC;
+    border-bottom: 1px solid #ececec;
 }
 
 .nav-links {
@@ -39,8 +39,6 @@ body {
 .nav-links li {
     margin: 32px 46px 32px 0;
 }
-
-
 
 .nav,
 .contact {
@@ -121,6 +119,16 @@ body {
     border-color: var(--blue);
 }
 
+.nav-buttons {
+    display: flex;
+    margin: 94px 0 50px 0;
+}
+
+.nav-buttons li {
+    margin-left: 8px;
+    align-items: center;
+}
+
 /* SEKCJA TEKSTOWA LOREM */
 .articles {
     color: var(--grey);
@@ -139,7 +147,7 @@ body {
 
 .flex-text {
     display: flex;
-    padding: 94px;
+    padding: 94px 0 94px 0;
     gap: 30px;
 }
 
@@ -157,7 +165,7 @@ body {
 
 .flex-photos {
     display: flex;
-    padding-bottom: 94px;
+    padding: 50px 0 94px 0;
     gap: 30px;
 }
 
@@ -166,7 +174,7 @@ h2 {
 }
 
 .our-team {
-    background-color: #F5F4FA;
+    background-color: #f5f4fa;
     padding-top: 94px;
 }
 
@@ -212,6 +220,23 @@ h2 {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
+    padding: 0 0 20px 24px;
+}
+
+.flex-portfolio {
+    display: flex;
+    padding-bottom: 94px;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.flex-portfolio li {
+    border: 1px solid #eeeeee;
+}
+
+.flex-portfolio h3 {
+    padding-left: 24px;
 }
 
 /* STOPKA */
