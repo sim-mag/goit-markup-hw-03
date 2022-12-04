@@ -48,11 +48,11 @@ h4 {
 
 .nav-links {
     display: flex;
-    padding: 0px;
+    gap: 46px;
 }
 
 .nav-links li {
-    margin: 32px 46px 32px 0;
+    padding: 32px 0px 32px 0;
 }
 
 .nav,
@@ -99,10 +99,15 @@ h4 {
     font-size: 44px;
     line-height: 60px;
     text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.solutions h1 {
+    padding-top: 106px;
 }
 
 .solutions .container {
-    padding: 200px 452px 200px 452px;
+    /* padding: 200px 452px 200px 452px; */
 }
 
 /* BUTTONS */
@@ -115,6 +120,22 @@ h4 {
     border: none;
     cursor: pointer;
     border-radius: 4px;
+}
+
+.main-button {
+    margin-top: 30px;
+    /* margin bottom ma taką wartość, bo ostęp pomiędzy dolną 
+    krawędzią buttona a końcem ciemnego tła w figmie 
+    to 200px (odjąć 94px nadane z kontenera) */
+    margin-bottom: 106px;
+}
+
+.button span {
+    padding: 6px 22px 6px 22px;
+}
+
+.button div {
+    padding: 10px 41px 10px 42px;
 }
 
 .index {
@@ -166,9 +187,6 @@ h4 {
     gap: 30px;
 }
 
-.no-marks {
-    list-style: none;
-}
 
 /* CZYM SIĘ ZAJMUJEMY, NASZ ZESPÓŁ */
 .section-title {
@@ -180,9 +198,13 @@ h4 {
 
 .flex-photos {
     display: flex;
-    padding: 50px 0 94px 0;
+    padding-top: 50px;
     justify-content: space-between;
     gap: 30px;
+}
+
+.no-margin {
+    margin-top: -94px;
 }
 
 h2 {
@@ -235,7 +257,6 @@ h2 {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    padding-left: 24px;
 }
 
 .flex-portfolio {
@@ -248,12 +269,11 @@ h2 {
 }
 
 .flex-portfolio li {
-    padding-bottom: 20px;
     border: 1px solid #eeeeee;
 }
 
-.flex-portfolio h3 {
-    padding: 20px 0 4px 24px;
+.flex-portfolio div {
+    padding: 20px 24px 20px 24px;
 }
 
 /* STOPKA */
@@ -267,20 +287,15 @@ h2 {
 }
 
 .footer-wrapper .container {
-    padding: 60px;
-}
-
-.footer-wrapper .company-name-footer {
-    padding-bottom: 20px;
+    padding: 60px 0;
 }
 
 address {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
-address a {
-    padding-bottom: 9px;
-    margin-top: 9px;
+address div {
+    padding-top: 9px;
 }
 
 .company-name-footer {
