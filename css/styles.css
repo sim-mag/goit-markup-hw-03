@@ -127,7 +127,7 @@ h4 {
 
 .main-button {
     margin-top: 30px;
-    /* margin bottom ma taką wartość, bo ostęp pomiędzy dolną 
+    /* margin bottom ma taką wartość, bo odstęp pomiędzy dolną 
     krawędzią buttona a końcem ciemnego tła w figmie 
     to 200px (odjąć 94px nadane z kontenera) */
     margin-bottom: 106px;
