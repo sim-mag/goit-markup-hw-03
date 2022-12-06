@@ -13,7 +13,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    /* padding: 0 15px; */
+    padding: 0 15px;
 }
 
 ul,
@@ -108,7 +108,7 @@ h4 {
     font-size: 44px;
     line-height: 1.3636;
     letter-spacing: 0.06em;
-    margin: 106px 252px 0;
+    padding: 106px 252px 0;
 }
 
 /* BUTTONS */
@@ -204,7 +204,7 @@ h4 {
 .flex-photos {
     display: flex;
     padding-top: 50px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 30px;
 }
 
@@ -248,6 +248,7 @@ h4 {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
+    margin: 0 -15px;
 }
 
 .flex-portfolio img {
