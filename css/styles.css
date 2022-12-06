@@ -36,14 +36,6 @@ h4 {
     padding: 24px 0 25px;
 }
 
-.nav,
-.contact {
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1428;
-}
-
 .wrapper {
     display: flex;
     justify-content: space-between;
@@ -53,25 +45,6 @@ h4 {
 .wrapper nav {
     display: flex;
     gap: 93px;
-   }
-
-.menu {
-    display: flex;
-    align-items: center;
-    gap: 46px;
-}
-
-.contact {
-    color: var(--grey);
-}
-
-.menu-contact {
-    display: flex;
-    gap: 50px;
-}
-
-.tab {
-    color: var(--black);
 }
 
 .company-name {
@@ -85,6 +58,33 @@ h4 {
 
 .logo {
     color: var(--blue);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+}
+
+.nav,
+.contact {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428;
+}
+
+.tab {
+    color: var(--black);
+}
+
+.menu-contact {
+    display: flex;
+    gap: 50px;
+}
+
+.contact {
+    color: var(--grey);
 }
 
 .nav:hover {
@@ -112,6 +112,11 @@ h4 {
 }
 
 /* BUTTONS */
+.main-button {
+    margin-top: 30px;
+    margin-bottom: 106px;
+}
+
 .button {
     background-color: #f5f4fa;
     font-family: 'Roboto', sans-serif;
@@ -121,18 +126,6 @@ h4 {
     border: none;
     cursor: pointer;
     border-radius: 4px;
-}
-
-.main-button {
-    margin-top: 30px;
-    /* margin bottom ma taką wartość, bo odstęp pomiędzy dolną 
-    krawędzią buttona a końcem ciemnego tła w figmie 
-    to 200px (odjąć 94px nadane z kontenera) */
-    margin-bottom: 106px;
-}
-
-.nav-buttons .button {
-    padding: 6px 22px 6px 22px;
 }
 
 .main-button .button {
@@ -148,6 +141,20 @@ h4 {
     padding: 10px 41px 10px 42px;
 }
 
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 94px 0 50px 0;
+}
+
+.nav-buttons li {
+    margin-right: 8px;
+}
+
+.nav-buttons .button {
+    padding: 6px 22px 6px 22px;
+}
+
 .button:hover {
     color: white;
     background-color: var(--blue);
@@ -157,16 +164,6 @@ h4 {
     color: white;
     background-color: var(--blue);
     border-color: var(--blue);
-}
-
-.nav-buttons {
-    display: flex;
-    justify-content: center;
-    padding: 94px 0 50px 0;
-}
-
-.nav-buttons li {
-    margin-right: 8px;
 }
 
 /* SEKCJA TEKSTOWA LOREM */
@@ -191,13 +188,17 @@ h4 {
     gap: 30px;
 }
 
-
 /* CZYM SIĘ ZAJMUJEMY, NASZ ZESPÓŁ */
+.no-margin {
+    margin-top: -94px;
+}
+
 .section-title {
     color: var(--black);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1666;
+    text-align: center;
 }
 
 .flex-photos {
@@ -207,26 +208,9 @@ h4 {
     gap: 30px;
 }
 
-.no-margin {
-    margin-top: -94px;
-}
-
-h2 {
-    text-align: center;
-}
-
 .our-team {
     background-color: #f5f4fa;
     padding-top: 94px;
-}
-
-.our-team h3 {
-    color: var(--black);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.1875;
-    padding-top: 30px;
-    padding-bottom: 10px;
 }
 
 .our-team li {
@@ -239,8 +223,16 @@ h2 {
     border-radius: 0px 0px 4px 4px;
 }
 
+.our-team h3 {
+    color: var(--black);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
 .profession {
-    /* zostawiam taką klasę, żeby nie dawać nowego nagłówka w sekcji h4 */
     color: var(--grey);
     font-weight: 400;
     font-size: 16px;
@@ -249,7 +241,26 @@ h2 {
 }
 
 /* MAIN STRONY PORTFOLIO */
-.portfolio h3 {
+.flex-portfolio {
+    display: flex;
+    padding-bottom: 94px;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.flex-portfolio img {
+    vertical-align: middle;
+}
+
+.flex-portfolio div {
+    padding: 20px 24px 20px 24px;
+    border: 2px solid #eeeeee;
+    border-top: none;
+}
+
+.flex-portfolio h3 {
     color: var(--black);
     font-weight: 700;
     font-size: 18px;
@@ -263,25 +274,6 @@ h2 {
     line-height: 1.875;
 }
 
-.flex-portfolio {
-    display: flex;
-    padding-bottom: 94px;
-    gap: 30px;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.flex-portfolio div {
-    padding: 20px 24px 20px 24px;
-    border: 2px solid #eeeeee;
-    border-top: none;
-}
-
-.flex-portfolio img {
-    vertical-align: middle;
-}
-
 /* STOPKA */
 .footer-wrapper {
     color: white;
@@ -293,14 +285,6 @@ h2 {
     padding: 60px 0;
 }
 
-address {
-    padding-top: 20px;
-}
-
-address div {
-    padding-top: 9px;
-}
-
 .company-name-footer {
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -310,8 +294,13 @@ address div {
     text-decoration: none;
 }
 
-.footer-wrapper address {
+address {
+    padding-top: 20px;
     font-style: normal;
+}
+
+address div {
+    padding-top: 9px;
 }
 
 .footer-contact {
@@ -319,10 +308,10 @@ address div {
     text-decoration: none;
 }
 
-.underline {
-    text-decoration: underline;
-}
-
 .footer-contact:hover {
     color: var(--blue);
+}
+
+.underline {
+    text-decoration: underline;
 }
