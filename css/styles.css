@@ -13,6 +13,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 ul,
@@ -45,6 +46,11 @@ h4 {
     align-items: center;
 }
 
+.wrapper nav {
+    display: flex;
+    gap: 93px;
+   }
+
 .menu {
     display: flex;
     align-items: center;
@@ -71,7 +77,6 @@ h4 {
     font-weight: 700;
     line-height: 1.1923;
     text-decoration: none;
-    padding-right: 43px;
 }
 
 .logo {
@@ -84,17 +89,6 @@ h4 {
 
 .border-nav {
     border-bottom: 1px solid #ececec;
-}
-
-/* EFEKTYWNE ROZWIĄZANIA... */
-.solutions {
-    color: white;
-    background-color: var(--background-grey);
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 44px;
-    line-height: 60px;
-    text-align: center;
 }
 
 /* EFEKTYWNE ROZWIĄZANIA... */
@@ -133,7 +127,7 @@ h4 {
     margin-bottom: 106px;
 }
 
-.button span {
+.nav-buttons .button {
     padding: 6px 22px 6px 22px;
 }
 
@@ -294,9 +288,6 @@ h2 {
     font-size: 14px;
     line-height: 1.7142;
     text-decoration: none;
-}
-
-.footer-wrapper .container {
     padding: 60px 0;
 }
 
