@@ -13,7 +13,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    /* padding: 0 15px; */
 }
 
 ul,
@@ -32,6 +32,10 @@ h4 {
 }
 
 /* HEADER */
+.header-wrapper {
+    padding: 24px 0 25px;
+}
+
 .nav,
 .contact {
     text-decoration: none;
@@ -131,15 +135,17 @@ h4 {
     padding: 6px 22px 6px 22px;
 }
 
-.button div {
-    padding: 10px 41px 10px 42px;
-}
-
-.index {
+.main-button .button {
     color: white;
     background-color: var(--blue);
     font-weight: 700;
     line-height: 1.875;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px 41px 10px 42px;
 }
 
 .button:hover {
@@ -277,10 +283,6 @@ h2 {
 }
 
 /* STOPKA */
-.header-wrapper {
-    padding: 24px 0 25px;
-}
-
 .footer-wrapper {
     color: white;
     background-color: var(--background-grey);
