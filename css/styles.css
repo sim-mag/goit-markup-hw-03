@@ -303,7 +303,7 @@ address {
     text-decoration: none;
 }
 
-address div {
+address li {
     padding-top: 9px;
 }
 
